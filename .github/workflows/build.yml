@@ -1,6 +1,12 @@
 name: build
 on: ["push", "pull_request"]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  packages: write
+
 jobs:
   test:
     name: Test
