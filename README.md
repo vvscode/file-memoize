@@ -1,9 +1,9 @@
 # file-memoize
 
 
-[![npm version](https://badge.fury.io/js/object-chronicler.svg)](https://www.npmjs.com/package/file-memoize)
-[![Deploy](https://github.com/vvscode/object-chronicler/workflows/build/badge.svg)](https://github.com/vvscode/file-memoize/actions)
-[![Coverage Status](https://coveralls.io/repos/github/vvscode/object-chronicler/badge.svg?branch=master)](https://coveralls.io/github/vvscode/file-memoize?branch=master)
+[![npm version](https://badge.fury.io/js/file-memoize.svg)](https://www.npmjs.com/package/file-memoize)
+[![Deploy](https://github.com/vvscode/file-memoize/workflows/build/badge.svg)](https://github.com/vvscode/file-memoize/actions)
+[![Coverage Status](https://coveralls.io/repos/github/vvscode/file-memoize/badge.svg?branch=master)](https://coveralls.io/github/vvscode/file-memoize?branch=master)
 
 
 A simple and efficient TypeScript higher-order function to cache asynchronous function results to JSON files in the OS temporary directory. Designed for Node.js, it persists cached results across runs using parameter-based keys and customizable cache file naming.
