@@ -23,13 +23,6 @@ jobs:
           npm ci
           npm run test:ci
 
-      - name: Coveralls
-        if: matrix.node == 22
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./.coverage/lcov.info
-
   release:
     name: Release
     if: github.ref == 'refs/heads/master'
